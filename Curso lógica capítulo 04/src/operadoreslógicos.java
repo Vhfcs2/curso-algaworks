@@ -11,11 +11,25 @@ public class operadoreslógicos {
 		
 		if (aplicarDesconto) {
 			System.out.println("Sim! Aplique o desconto. ");
-			
 		} else {
 			System.out.println("Não aplique o desconto. ");
-			
 		}
+			
+		//----------------------------------------------------------------
+		// exercício
+			
+			Boolean contribuiu25Anos = true;
+			Boolean temMaisDe55Anos = true;
+			
+			Boolean podeAposentar = contribuiu25Anos || temMaisDe55Anos;
+			
+			if (podeAposentar) {
+				System.out.println("Sim, pode se aposentar");
+			
+			} else {
+				System.out.println("Não, não pode se aposentar");
+			}
+		
 		
 	}
 
