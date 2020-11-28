@@ -29,6 +29,12 @@ public class operadoresrelacionais {
 		Boolean quatroMaiorQueQuatro = quatro > quatro;
 		System.out.println("quatro > quatro? " + quatroMaiorQueQuatro);
 		
+		//Equals
+		Integer cinco = 5;
+		Boolean cincoIgualACinco = cinco.equals(cinco);
+		System.out.println("cinco.equals(cinco)" + cincoIgualACinco);
+		
+		
 	
 		
 	} 
