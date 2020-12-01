@@ -24,7 +24,8 @@ public class IteraçãoIt {
 				continue;
 				
 			}
-			System.out.println("Kageyama Baka.");
+			
+			System.out.println(i + ": Kageyama Baka.");
 			i++;
 		
 	}
